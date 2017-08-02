@@ -1,0 +1,35 @@
+/*
+Theme Name: EcoGoodies
+Theme URI: http://ecogoodies.nl
+Template: handystore
+Author: GuruWorks
+Author URI: http://ecogoodies.ml
+Description: EcoGoodies theme
+Tags: one-column,two-columns,right-sidebar,custom-header,custom-menu,editor-style,featured-images,microformats,post-formats,sticky-post,translation-ready
+Version: 4.15 (see readme.txt for detailed changelog).1481039846
+Updated: 2016-12-06 16:57:26
+
+body {
+    background-color: #fdfdf5;
+}
+
+*/
+
+
+h1 {
+    font-size: 26px;
+}
+
+.header-primary-nav {
+    -moz-box-shadow: inset 0 0 0 0 #e1e1e1, inset 0 0 0 0 white;
+    -webkit-box-shadow: inset 0 0 0 0 #e1e1e1, inset 0 0 0 0 white;
+    -o-box-shadow: inset 0 0 0 0 #e1e1e1, inset 0 0 0 0 white;
+    box-shadow: inset 0 0 0 0 #e1e1e1, inset 0 0 0 0 white;
+}
+
+.primary-nav .menu {
+    background-color: #cc6 !important;
+}
+.primary-nav .menu li.current_page_item a, .primary-nav .menu a:hover, .primary-nav .menu li.current_page_item a:hover {
+    background-color: #565656;
+}

@@ -1,0 +1,238 @@
+/*
+Theme Name: eco
+Version: 1.0
+Description: A child theme of eCommerce by MyThemeShop
+Template: mts_ecommerce
+Text Domain: mts_ecommerce
+*/
+
+@import url("../mts_ecommerce/style.css");
+
+#header {
+    margin-top: 0px;
+}
+.header-2 .logo-wrap, .header-3 .logo-wrap {
+    margin-top: 6px;
+}
+#primary-navigation .navigation a {
+    text-transform: none;
+}
+#s {
+    border: 1px solid #ded7d0;
+    background-color: #ded7d0;
+    text-align: center;
+}
+#site-header.header-3 #primary-navigation {
+    margin-top: 8px;
+    text-align: center;
+}
+
+#primary-navigation .container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+span.mts-wishlist:hover span.mts-wishlist-icon {
+	background-color: #aed3a9;
+	outline: 1px solid #aed3a9;
+}
+
+.sticky-navigation.sticky-navigation-active .container.clearfix {
+	background-image:url(http://ecogoodies.nl/new/wp-content/uploads/2017/icon-logo-nav.png);
+	background-repeat: no-repeat;
+    width: 91.3%;
+    background-position-x: 10px; 
+    margin-right: 4px;
+}
+
+.sticky-navigation.sticky-navigation-active .container.clearfix nav {
+    float: none !important;
+    display: block;
+    text-align: center;
+}
+
+.sticky-navigation.sticky-navigation-active .container.clearfix nav ul li {
+    float: none;
+    display: inline-block;
+}
+
+#menu-main-menu li:first-child a {
+	padding-left: 14px;
+}
+
+ul#menu-main-menu li ul.sub-menu.toggle-submenu li {
+    text-align: left;
+}
+
+primary-navigation 
+.navigation a {
+    text-transform: none;
+}
+
+
+#secondary-navigation li a {
+    font-size: 13px;
+    font-weight: 400;
+}
+.header-2 #secondary-navigation li a, .header-3 #secondary-navigation li a, .header-4 #secondary-navigation li a {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.sidebar .widget h3 {
+    text-transform: none;
+    padding: 15px 15px;
+}
+
+
+/*----My Style----*/
+
+span.mts-wishlist a {
+    color: #fff;
+}
+
+span.mts-wishlist-icon {
+    outline: 1px solid #feb6c1;
+    background-color: #feb6c1;
+}
+
+.menu-main-menu-container ul#menu-main-menu-1 {
+    margin-left: 0;
+
+}
+
+.menu-main-menu-container ul#menu-main-menu-1 li {
+    list-style-type:none;
+}
+
+.wpb_wrapper .menu-main-menu-container ul#menu-main-menu-1 li span.toggle-caret {
+    margin-top: 12px;
+}
+
+.wpb_wrapper .menu-main-menu-container ul#menu-main-menu-1 li span.toggle-caret i {
+    border: solid 1px #937c65;
+    padding: 0 1px;
+}
+
+
+.wpb_wrapper .menu-main-menu-container ul#menu-main-menu-1 li.active span.toggle-caret i {
+    border: solid 1px #feb6c1;
+}
+
+
+h2.widgettitle {
+    color: #88c8d3;
+    padding-left: 13px;
+}
+
+.product-wrap.effect-imgswitch .product-wrap-inner .product-hover a:first-child {
+    background-color: #aed3a9;
+}
+
+.product-wrap.effect-imgswitch .product-wrap-inner .product-hover a:nth-child(2) {
+    background-color: #feb6c1;
+}
+
+.product-wrap.effect-imgswitch .product-wrap-inner .product-hover a:nth-child(3) {
+    background-color: #937c65;
+}
+
+.product-wrap.effect-imgswitch .product-wrap-inner .product-hover a:nth-child(4) {
+    background-color: #88c8d3;
+}
+
+.product-wrap.effect-imgswitch .product-wrap-inner .product-hover a:first-child:hover {
+    background-color: #937c65;
+}
+
+.product-wrap.effect-imgswitch .product-wrap-inner .product-hover a:nth-child(2):hover {
+    background-color: #937c65;
+}
+
+.product-wrap.effect-imgswitch .product-wrap-inner .product-hover a:nth-child(3):hover {
+    background-color: #937c65;
+}
+
+.product-wrap.effect-imgswitch .product-wrap-inner .product-hover a:nth-child(4):hover {
+    background-color: #937c65;
+}
+
+.mts-add-to-wishlist.button.added i {
+    color: #aed3a9;
+}
+
+.custom-widget {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.custom-widget ul li {
+    display: inline-block;
+    font-size: 50px;
+}
+
+.mailpoet-h3 {
+    color: #88c8d3;
+    margin-bottom: 0;
+    font-size: 35px;
+}
+
+.mailpoet-p {
+    color: black;
+}
+
+.mailpoet-email {
+    margin-bottom: 0px;
+    padding-right: 33%;
+}
+
+.wysija-paragraph input {
+    width: 35%;
+}
+
+.wysija-submit.wysija-submit-field {
+    display: none;
+}
+
+.featured-section.home-section.clearfix.featured-blog-posts {
+    background-color: #e4f0e2;
+    padding: 20px;
+}
+
+p.cart span.cart-wishlist-button a:first-child {
+    background-color: #aed3a9;
+    text-transform: lowercase;
+}
+
+p.cart span.cart-wishlist-button a:first-child:hover {
+    background-color: #937c65;
+}
+
+.container .featured-blog-posts-container {
+    margin-left: -22px;
+}
+
+
+p.cart span.cart-wishlist-button a:last-child {
+    text-transform: lowercase;    
+}
+
+@media (max-width:870px) {
+    .sticky-navigation.sticky-navigation-active .container.clearfix {
+        background: none;
+    }
+}
+
+@media (max-width: 414px) {
+    .mts-wishlist {
+        margin-left: 40% !important;
+    }
+}
+
+@media (min-width: 415px) and (max-width: 865px) {
+    .mts-wishlist {
+        margin-left: -36% !important;
+    }
+}

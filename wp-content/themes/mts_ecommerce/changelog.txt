@@ -1,0 +1,410 @@
+v1.2.10 (Mar 03, 2017)
+-----------------------------
+- Improved internalization
+
+Files updated:
+- functions.php
+- lang/mts_ecommerce.pot
+- style.css
+
+v1.2.9 (Feb 07, 2017)
+-----------------------------
+- Fixed issue with external products on archive pages
+
+Files updated:
+- functions.php
+- style.css
+
+v1.2.8 (Feb 05, 2017)
+-----------------------------
+- Fixed styling issue with external products
+
+Files updated:
+- css/woocommerce2.css
+- functions.php
+- style.css
+- woocommerce/single-product/add-to-cart/external.php
+
+v1.2.7 (Feb 05, 2017)
+-----------------------------
+- Fixed bug with author postbox
+
+Files updated:
+- functions.php
+- single.php
+- style.css
+
+v1.2.6 (Jan 25, 2017)
+-----------------------------
+- New! Author website link in author postbox
+
+Files updated:
+- functions.php
+- single.php
+- style.css
+
+
+v1.2.5 (Jan 18, 2017)
+-----------------------------
+- One click demo importer improvements
+
+Files updated:
+- style.css
+- functions.php
+- options/demo-importer/
+
+
+v1.2.4 (Jan 15, 2017)
+-----------------------------
+- One click demo importer improvements
+
+Files updated:
+- style.css
+- functions.php
+- options/demo-importer/
+
+
+v1.2.3 (Jan 14, 2017)
+-----------------------------
+- Fixed header 5 overflow scroll on smaller screens
+- Product grid images are now clickable and will bring you to the product's pag
+
+Files updated:
+- functions.php
+- style.css
+- woocommerce/content-product-grid.php
+
+v1.2.2 (Dec 24, 2016)
+-----------------------------
+- One click demo importer improvements
+- Ignore sticky posts in recent posts widget
+- Bug fix regarding out of stock items in offers home section
+- Ajax search "Show all results" link fix
+- Added filters for query args in all home sections
+
+Files updated:
+- style.css
+- functions.php
+- options/demo-importer/importer/radium-importer.php
+- functions/widget-recentposts.php
+- woocommerce/loop/offers-sale-flush.php
+- home/section-posts.php
+- home/section-product_cats.php
+- home/section-product_grid.php
+- home/section-product_tabs.php
+
+
+v1.2.1 (Nov 2, 2016)
+-----------------------------
+- Fixed homepage Offers section layout issue if there is no sidebar
+- Added space after "More Articles By" in author box on single posts
+
+Files updated:
+- style.css
+- functions.php
+- single.php
+- css/woocommerce2.css
+
+
+v1.2.0 (Oct 22, 2016)
+-----------------------------
+- One click demo importer improvements
+- Install Plugins page improvements
+
+Files updated:
+- style.css
+- functions.php
+- theme-presets.php
+- options/
+- lang/
+- functions/plugin-activation.php
+
+
+v1.1.9 (Aug 23, 2016)
+-----------------------------
+- Fixed submenu bug
+
+Files updated:
+- style.css
+- functions.php
+
+
+v1.1.8 (Jul 20, 2016)
+-----------------------------
+- Fixed bug which was preventing right sidebar in the Shop page
+- Improved styling of pricing text in the single product page
+- Improved styling of On/Off buttons in the Theme Options Panel
+
+Files updated:
+- style.css
+- functions.php
+- css/woocommerce2.css
+- options/css/aristo.css
+
+
+v1.1.7 (Jul 16, 2016)
+-----------------------------
+- Added Google Maps API key field in Theme Options - now required by Google
+
+Files updated:
+- style.css
+- functions.php
+- page-contact.php
+- theme-options.php
+
+
+v1.1.6 (Jun 22, 2016)
+-----------------------------
+- Updated "MyThemeShop: AJAX attribute filter" widget
+
+Files updated:
+- style.css
+- functions.php
+- functions/widget-ajax-layered-nav.php
+- js/wc-ajax-attr-filters.php
+- css/woocommerce2.css
+
+
+v1.1.5 (Jun 17, 2016)
+-----------------------------
+- Fixed WC 2.6 issues
+- Fixed Wishlist page when "Optimize WooCommerce Scripts" option is enabled
+- Fixed Homepage tabs and offers sections issue when "hide out of stock items" is enabled
+- Improved Header Cart code
+
+Files updated:
+- style.css
+- functions.php
+- functions/theme-actions.php
+- css/woocommerce2.css
+- home/section-offers.php
+- home/section-product_tabs.php
+- woocommerce/myaccount/form-login.php
+- woocommerce/content-product.php
+- woocommerce/content-product_cat.php
+- woocommerce/content-product-featured-carousel.php
+- woocommerce/content-product-related-carousel.php
+- woocommerce/cart/cart.php
+
+
+v1.1.4 (Apr 27, 2016)
+-----------------------------
+- Small framework fixes and improvements
+- Checkout tabs are translatable now
+- Added 'mts_wishlist_page_id' filter
+- Fixed issue with variable product button in quick view popup
+
+Files updated:
+- style.css
+- functions.php
+- theme-options.php
+- css/addons.css
+- options/options.php
+- options/js/select2.min.js
+- options/js/options.js
+- options/css/options.css
+- options/fields/
+- options/google-typography/google-typography.php
+- options/google-typography/stylesheets/google-typography.css
+- options/demo-importer/init.php
+- options/demo-importer/importer/radium-importer.php
+- functions/widget-tweets.php
+- woocommerce/cart/cart.php
+- woocommerce/checkout/form-checkout.php
+
+
+v1.1.3 (Mar 17, 2016)
+-----------------------------
+- Updated code on Recommended plugins page
+
+Files updated:
+- style.css
+- functions/plugin-activation.php
+- css/addons.css
+
+
+v1.1.2 (Mar 8, 2016)
+-----------------------------
+- Recommended plugins page changes
+
+Files updated:
+- style.css
+- functions.php
+- functions/plugin-activation.php
+- css/addons.css
+
+
+v1.1.1 (Feb 5, 2016)
+-----------------------------
+- Fixed WC 2.5 issues
+- Fixed add to cart issues when "Enable AJAX add to cart buttons on archives" WC option is unchecked
+- Fixed sidebar on Wishlist page
+- Fixed layered nav widget count issue
+- Improved Recommended plugins page
+- Added new image uploader
+- Fixed schema.org errors
+- Removed Translation Panel & added My WP Translate Plugin recommendation for the same
+- Fixed lazy load issues
+- Fixed issue when right sidebar won't show if 'Sidebar' string is translated
+- Updated Latest Tweets Widget
+- Added one click demo importer with 5 demos
+- Added performance tab in theme options panel
+
+Files updated:
+- style.css
+- functions.php
+- single.php
+- page-wishlist.php
+- theme-options.php
+- theme-presets.php
+- woocommerce/loop/add-to-cart.php
+- woocommerce/single-product/add-to-cart/variable.php
+- woocommerce/product-searchform.php
+- woocommerce/content-product.php
+- woocommerce/content-product_cat.php
+- css/woocommerce2.css
+- options/options.php
+- options/js/options.js
+- options/css/options.css
+- options/fields/upload/
+- options/demo-importer/
+- functions/plugin-activation.php
+- functions/widget-tweets.php
+- css/addons.css
+- js/addons.js
+- home/section-posts.php
+
+
+v1.1.0 (Dec 8, 2015)
+-----------------------------
+- Fixed structured data testing tool errors
+
+Files updated:
+- style.css
+- functions.php
+- single.php
+- functions/theme-actions.php
+
+
+v1.0.9 (Nov 13, 2015)
+-----------------------------
+- Fixed popup issues
+
+Files updated:
+- style.css
+- functions.php
+- js/jquery.magnific-popup.min.js
+
+
+v1.0.8 (Nov 10, 2015)
+-----------------------------
+- Fixed outdated template notice
+- Fixed PHP warnings on activation
+
+Files updated:
+- style.css
+- functions.php
+- woocommerce/single-product/price.php
+
+
+v1.0.7 (Oct 23, 2015)
+-----------------------------
+- Fixed PHP notice in recent tweets widget
+- Fixed active state checkout tabs issue
+- Fixed bug in variable product grid where one image was missing
+- Fixed issue where "No Title" pages were created on activation
+- Fixed blog layout on mobile
+- Few minor CSS changes
+
+Files updated:
+- style.css
+- functions.php
+- css/woocommerce2.css
+- css/responsive.css
+- woocommerce/content-product-grid.php
+- woocommerce/checkout/form-checkout.php
+- woocommerce/cart/cart.php
+- functions/widget-tweets.php
+
+
+v1.0.6 (Aug 31, 2015)
+-----------------------------
+- Modified checkout layout.
+
+Files updated:
+- style.css
+- css/woocommerce2.css
+- woocommerce/checkout/form-checkout.php
+
+
+v1.0.5 (Aug 30, 2015)
+-----------------------------
+- Fixed: Place Order button was hidden if users add multiple products.
+
+Files updated:
+- style.css
+- css/woocommerce2.css
+
+
+v1.0.4 (Aug 23, 2015)
+-----------------------------
+- Fixed double popup issue
+- Fixed minor styling of single product page thumbs
+
+Files updated:
+- style.css
+- functions.php
+- css/woocommerce2.css
+
+
+v1.0.3 (Aug 23, 2015)
+-----------------------------
+- Changed widget constructors to PHP 5 style
+- Fixed translation issue
+
+Files updated:
+- style.css
+- functions.php
+- functions/theme-actions.php
+- functions/widget-ad125.php
+- functions/widget-ad300.php
+- functions/widget-ad728.php
+- functions/widget-fblikebox.php
+- functions/widget-social.php
+- functions/widget-ajax-layered-nav.php
+- woocommerce/compare.php
+- woocommerce/single-product/add-to-cart/grouped.php
+- woocommerce/single-product/add-to-cart/simple.php
+- woocommerce/single-product/add-to-cart/variable.php
+- woocommerce/checkout/form-checkout.php
+- woocommerce/checkout/form-login.php
+- woocommerce/checkout/review-order.php
+- woocommerce/global/form-login.php
+- woocommerce/myaccount/form-login.php
+
+
+v1.0.2 (Aug 12, 2015)
+-----------------------------
+- Fixed WC v2.4.2 outdated templates notice
+- Fixed one PHP warning
+
+Files updated:
+- functions.php
+- style.css
+- woocommerce/content-product.php
+- woocommerce/content-product_cat.php
+- woocommerce/single-product/add-to-cart/variable.php
+- woocommerce/single-product/tabs/tabs.php
+
+
+v1.0.1 (Jul 28, 2015)
+---------------------------------------------------
+- Fixed small CSS bug
+
+Files updated:
+- style.css
+
+
+v1.0 (Jul 27, 2015)
+---------------------------------------------------
+- Theme Released
